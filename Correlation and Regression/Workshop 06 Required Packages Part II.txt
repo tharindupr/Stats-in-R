@@ -1,0 +1,49 @@
+
+if(!require("readxl")){
+  install.packages("readxl",dependencies = TRUE)
+  library(readxl)
+}
+if(!require("dplyr")){
+  install.packages("dplyr",dependencies = TRUE)
+  library(dplyr)
+}
+if(!require("tidyr")){
+  install.packages("tidyr",dependencies = TRUE)
+  library(tidyr)
+}
+if(!require("ggplot2")){
+  install.packages("ggplot2",dependencies = TRUE)
+  library(ggplot2)
+}
+if(!require("psych")){
+  install.packages("psych",dependencies = TRUE)
+  library(psych)
+}
+if(!require("Matrix")){
+  install.packages("Matrix",dependencies = TRUE)
+  library(Matrix)
+}
+if(!require("faraway")){
+  install.packages("faraway",dependencies = TRUE)
+  library(faraway)
+}
+if(!require("MASS")){
+  install.packages("MASS",dependencies = TRUE)
+  library(MASS)
+}
+if(!require("QuantPsyc")){
+  install.packages("QuantPsyc",dependencies = TRUE)
+  library(QuantPsyc)
+}
+if(!require("gridExtra")){
+  install.packages("gridExtra",dependencies = TRUE)
+  library(gridExtra)
+}
+if(!require("lmtest")){
+  install.packages("lmtest",dependencies = TRUE)
+  library(lmtest)
+}
+if(!require("xlsx")){
+  install.packages("xlsx",dependencies = TRUE)
+  library(xlsx)
+}
